@@ -1,0 +1,3 @@
+[submodule "hospital-microservice"]
+	path = hospital-microservice
+	url = https://github.com/xYarvinx/hospital-microservice.git
