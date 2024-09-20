@@ -76,7 +76,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountMicroserviceApplication">
+  <component name="RunManager" selected="Spring Boot.HospitalMicroserviceApplication">
     <configuration name="AccountMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account-microservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accountmicroservice.AccountMicroserviceApplication" />
