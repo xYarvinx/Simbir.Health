@@ -1,3 +1,12 @@
 [submodule "hospital-microservice"]
 	path = hospital-microservice
 	url = https://github.com/xYarvinx/hospital-microservice.git
+[submodule "account-microservice"]
+	path = account-microservice
+	url =  https://github.com/xYarvinx/account-microservice.git
+[submodule "document-microservice"]
+	path = document-microservice
+	url = https://github.com/xYarvinx/document-microservice.git
+[submodule "timetable-microservice"]
+	path = timetable-microservice
+	url = https://github.com/xYarvinx/timetable-microservice.git
