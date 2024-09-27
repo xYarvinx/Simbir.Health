@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Simbir.health.iml" filepath="$PROJECT_DIR$/Simbir.health.iml" />
+      <module fileurl="file://$PROJECT_DIR$/account-microservice/account-microservice.iml" filepath="$PROJECT_DIR$/account-microservice/account-microservice.iml" />
     </modules>
   </component>
 </project>

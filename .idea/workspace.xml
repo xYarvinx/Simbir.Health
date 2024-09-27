@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/.idea/developer-tools.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignInRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/AccountMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/AccountMicroserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/models/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/models/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +67,10 @@
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -68,26 +83,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker-compose.yml.redis: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "HTTP Request.Simbir_Health-endpoints | #1.executor": "Run",
+    "HTTP Request.Simbir_Health-endpoints | #2.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AccountMicroserviceApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "cea9aacc",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "swagger",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.accountmicroservice.models" />
@@ -100,7 +121,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HospitalMicroserviceApplication">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="Simbir_Health-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Simbir_Health-endpoints.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Simbir_Health-endpoints | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Simbir_Health-endpoints.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="AccountMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account-microservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accountmicroservice.AccountMicroserviceApplication" />
@@ -129,6 +156,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.redis: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="redis" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.redis: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="HTTP Request.Simbir_Health-endpoints | #1" />
+      <item itemvalue="HTTP Request.Simbir_Health-endpoints | #2" />
+      <item itemvalue="Spring Boot.AccountMicroserviceApplication" />
+      <item itemvalue="Spring Boot.DocumentMicroserviceApplication" />
+      <item itemvalue="Spring Boot.HospitalMicroserviceApplication" />
+      <item itemvalue="Spring Boot.TimetableMicroserviceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.redis: Compose Deployment" />
+        <item itemvalue="HTTP Request.Simbir_Health-endpoints | #1" />
+        <item itemvalue="HTTP Request.Simbir_Health-endpoints | #2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -214,15 +284,7 @@
       <option name="project" value="LOCAL" />
       <updated>1726796344565</updated>
     </task>
-    <task id="LOCAL-00010" summary="init commit">
-      <option name="closed" value="true" />
-      <created>1727401163691</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1727401163691</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,5 +293,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
