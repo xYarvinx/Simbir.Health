@@ -23,5 +23,4 @@ services:
     image: redis:latest
     container_name: redis
     ports:
-      - "6379:6389"
-    restart: unless-stopped
+      - "6379:6379"
