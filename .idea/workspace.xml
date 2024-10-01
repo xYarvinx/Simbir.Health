@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="some exception sugar" />
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="some exception sugar">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AuthenticationService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,10 +59,10 @@
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -80,7 +86,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AccountMicroserviceApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "f33e233b",
+    "git-widget-placeholder": "f2648548",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -88,7 +94,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,6 +117,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AccountMicroserviceApplication">
+    <configuration name="generated-requests | #36" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="36" requestIdentifier="#36" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="AccountMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account-microservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accountmicroservice.AccountMicroserviceApplication" />
@@ -136,17 +149,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.generated-requests | #36" />
       <item itemvalue="Spring Boot.AccountMicroserviceApplication" />
       <item itemvalue="Spring Boot.DocumentMicroserviceApplication" />
       <item itemvalue="Spring Boot.HospitalMicroserviceApplication" />
       <item itemvalue="Spring Boot.TimetableMicroserviceApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #36" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -161,7 +180,13 @@
       <workItem from="1726793074552" duration="1883000" />
       <workItem from="1726795014549" duration="960000" />
       <workItem from="1726796002117" duration="976000" />
-      <workItem from="1727700026784" duration="4809000" />
+      <workItem from="1727700026784" duration="5164000" />
+      <workItem from="1727783907363" duration="1102000" />
+      <workItem from="1727785787235" duration="260000" />
+      <workItem from="1727786143566" duration="59000" />
+      <workItem from="1727786458731" duration="232000" />
+      <workItem from="1727786718759" duration="77000" />
+      <workItem from="1727786821251" duration="1756000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -267,7 +292,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727704858021</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="some exception sugar">
+      <option name="closed" value="true" />
+      <created>1727704891853</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727704891853</updated>
+    </task>
+    <task id="LOCAL-00015" summary="some exception sugar">
+      <option name="closed" value="true" />
+      <created>1727705121574</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727705121574</updated>
+    </task>
+    <task id="LOCAL-00016" summary="some exception sugar">
+      <option name="closed" value="true" />
+      <created>1727705155384</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727705155384</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,5 +338,9 @@
     <MESSAGE value="add /SignOut, Full working jwt auth" />
     <MESSAGE value="some exception sugar" />
     <option name="LAST_COMMIT_MESSAGE" value="some exception sugar" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
