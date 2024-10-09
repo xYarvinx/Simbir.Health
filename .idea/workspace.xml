@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="ANALYZE_INJECTED_CODE" value="false" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="some refactors">
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="AuthenticationController Done ☑ ☑ ☑">
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/AccountConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/ErrorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/MessageResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/AccountExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/AccountNotFountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/ApiExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/InvalidDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/InvalidTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/developer-tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/developer-tools.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/CustomAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/CustomAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/CustomAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/TokenProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AccountController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/CreateAccountRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/models/AccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/models/AccountEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/DoctorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/JwtResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/RefreshRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/RefreshRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignInRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignInRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignUpRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/UpdateAccountRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/UpdateAccountRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/repository/AccountRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RefreshTokenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +50,12 @@
       <option value="module" />
       <option value="repository" />
     </option>
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="36b40ed0-662d-4595-9a0b-b7708250108e" value="Rose" />
+      <entry key="a102537c-5aac-4b6e-b606-f6e0d0863273" value="Violet" />
+    </colors>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/timetable-microservice">
@@ -52,6 +82,9 @@
       <list>
         <option value="Dockerfile" />
         <option value="Enum" />
+        <option value="com.intellij.jpb.FlywayMigrationScript" />
+        <option value="Interface" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -70,9 +103,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -85,6 +115,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "HTTP Request.generated-requests | #36.executor": "Run",
+    "HTTP Request.generated-requests | #37.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -94,7 +125,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AccountMicroserviceApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "4661e846",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -105,9 +137,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -127,6 +158,9 @@
   </component>
   <component name="RunManager" selected="Spring Boot.AccountMicroserviceApplication">
     <configuration name="generated-requests | #36" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="36" requestIdentifier="#36" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #37" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="37" requestIdentifier="#37" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="AccountMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -158,6 +192,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.generated-requests | #37" />
       <item itemvalue="HTTP Request.generated-requests | #36" />
       <item itemvalue="Spring Boot.AccountMicroserviceApplication" />
       <item itemvalue="Spring Boot.DocumentMicroserviceApplication" />
@@ -166,6 +201,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #37" />
         <item itemvalue="HTTP Request.generated-requests | #36" />
       </list>
     </recent_temporary>
@@ -195,7 +231,8 @@
       <workItem from="1727786143566" duration="59000" />
       <workItem from="1727786458731" duration="232000" />
       <workItem from="1727786718759" duration="77000" />
-      <workItem from="1727786821251" duration="2104000" />
+      <workItem from="1727786821251" duration="3429000" />
+      <workItem from="1727871578686" duration="7038000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -333,47 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727788874572</updated>
     </task>
-    <task id="LOCAL-00018" summary="Add AccountController urls">
+    <task id="LOCAL-00018" summary="AuthenticationController Done ☑ ☑ ☑">
       <option name="closed" value="true" />
-      <created>1728003331139</created>
+      <created>1727788952003</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1728003331139</updated>
+      <updated>1727788952003</updated>
     </task>
-    <task id="LOCAL-00019" summary="Add AccountController urls">
-      <option name="closed" value="true" />
-      <created>1728003357275</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1728003357275</updated>
-    </task>
-    <task id="LOCAL-00020" summary="some refactors">
-      <option name="closed" value="true" />
-      <created>1728004693581</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1728004693581</updated>
-    </task>
-    <task id="LOCAL-00021" summary="some refactors">
-      <option name="closed" value="true" />
-      <created>1728004730281</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1728004730281</updated>
-    </task>
-    <task id="LOCAL-00022" summary="some refactors">
-      <option name="closed" value="true" />
-      <created>1728004770884</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1728004770884</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,9 +400,7 @@
     <MESSAGE value="add /SignOut, Full working jwt auth" />
     <MESSAGE value="some exception sugar" />
     <MESSAGE value="AuthenticationController Done ☑ ☑ ☑" />
-    <MESSAGE value="Add AccountController urls" />
-    <MESSAGE value="some refactors" />
-    <option name="LAST_COMMIT_MESSAGE" value="some refactors" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuthenticationController Done ☑ ☑ ☑" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
