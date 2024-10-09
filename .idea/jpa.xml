@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig" migrateIndexesAndConstraints="true" reUseTableSchema="true">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="migrateIndexesAndConstraints" value="true" />
+    <option name="reLastEntityCreationPackage" value="account-microservice/src/main/java/com/example/accountmicroservice" />
+    <option name="renamerInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="a102537c-5aac-4b6e-b606-f6e0d0863273" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="account-microservice" name="Default">
+        <packages>
+          <package value="com.example.accountmicroservice" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
