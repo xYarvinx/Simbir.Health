@@ -4,36 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Done last DoctorController">
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/MessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/RefreshRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignInRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignUpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/UpdateAccountRequest.java" afterDir="false" />
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Add swagger doc">
+      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/OpenAPIConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/CustomAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/CustomAccessDeniedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/CustomAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/CustomAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/JwtFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/AuthenticationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/controller/DoctorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/AccountResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/ErrorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/JwtResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/MessageResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/RefreshRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignInRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/SignUpRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/UpdateAccountRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/ApiExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/AuthenticationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +104,7 @@
     "Spring Boot.AccountMicroserviceApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "008e3fca",
+    "git-widget-placeholder": "4e7ea43b",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -240,7 +216,7 @@
       <workItem from="1728459675625" duration="31000" />
       <workItem from="1728459728357" duration="354000" />
       <workItem from="1728460104675" duration="111000" />
-      <workItem from="1728460247059" duration="8845000" />
+      <workItem from="1728460247059" duration="10569000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -466,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728473553265</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Add swagger doc">
+      <option name="closed" value="true" />
+      <created>1728479246367</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728479246367</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +475,8 @@
     <MESSAGE value="Add exception + some code fixes &amp;&amp; refactors" />
     <MESSAGE value="fix" />
     <MESSAGE value="Done last DoctorController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done last DoctorController" />
+    <MESSAGE value="Add swagger doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add swagger doc" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
