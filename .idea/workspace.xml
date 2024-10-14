@@ -4,40 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="upd microservices">
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/RabbitMQConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/TokenValidationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/TokenValidationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/CustomAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/CustomAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/RabbitMQConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HosptialResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/exception/ApiExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/exception/ControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/exception/HospitalNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/exception/InvalidDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/RabbitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Some fixes(part don't work)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/OpenAPIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/OpenAPIConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/JwtFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/controller/HospitalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/controller/HospitalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/Erorr.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/model/HospitalEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/model/HospitalEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hospital-microservice" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -118,39 +91,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;HTTP Request.generated-requests | #36.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.generated-requests | #37.executor&quot;: &quot;Run&quot;,
-    &quot;Remote JVM Debug.Unnamed.executor&quot;: &quot;Debug&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AccountMicroserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.HospitalMicroserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;13ae2295&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oteba/IdeaProjects/Simbir.Health/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.generated-requests | #36.executor": "Run",
+    "HTTP Request.generated-requests | #37.executor": "Run",
+    "Remote JVM Debug.Unnamed.executor": "Debug",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AccountMicroserviceApplication.executor": "Run",
+    "Spring Boot.HospitalMicroserviceApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/oteba/IdeaProjects/Simbir.Health/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -282,6 +255,7 @@
       <workItem from="1728745021087" duration="100000" />
       <workItem from="1728745266607" duration="980000" />
       <workItem from="1728907036529" duration="12292000" />
+      <workItem from="1728919531557" duration="1019000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -547,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728543010941</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Some fixes(part don't work)">
+      <option name="closed" value="true" />
+      <created>1728919725566</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728919725566</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +560,8 @@
     <MESSAGE value="Starter struct &amp;&amp; some needed classes" />
     <MESSAGE value="Some minor changes&#10;Starter struct &amp;&amp; some needed classes&#10;add swagger Auth &amp;&amp; some descriptions" />
     <MESSAGE value="upd microservices" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd microservices" />
+    <MESSAGE value="Some fixes(part don't work)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some fixes(part don't work)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
