@@ -7,29 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="some refactors">
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HospitalRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HospitalResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/MessageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/RoomsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/util/JwtUtil.java" afterDir="false" />
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Add some controller urls">
+      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/exception/HospitalExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/JwtFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/RabbitMQConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/RabbitMQConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/dto/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/ApiExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/exception/ApiExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/TokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/TokenProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/JwtFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/controller/HospitalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/controller/HospitalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HosptialResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HospitalRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HospitalRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/model/HospitalEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/model/HospitalEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/repository/HospitalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/repository/HospitalRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/RabbitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/RabbitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +68,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hospital-microservice" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="786a94b7-c867-4ea9-ace3-e36a89dea65d" />
+  </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
   </component>
@@ -108,11 +103,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AccountMicroserviceApplication.executor": "Run",
-    "Spring Boot.HospitalMicroserviceApplication.executor": "Run",
+    "Spring Boot.AccountMicroserviceApplication.executor": "Debug",
+    "Spring Boot.HospitalMicroserviceApplication.executor": "Debug",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "6251b85f",
+    "git-widget-placeholder": "1dcada5a",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -120,15 +115,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.hospitalmicroservice.dto" />
@@ -144,7 +142,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountMicroserviceApplication">
+  <component name="RunManager" selected="Spring Boot.HospitalMicroserviceApplication">
     <configuration name="generated-requests | #36" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="36" requestIdentifier="#36" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -178,9 +176,9 @@
     </configuration>
     <list>
       <item itemvalue="HTTP Request.generated-requests | #36" />
+      <item itemvalue="Spring Boot.HospitalMicroserviceApplication" />
       <item itemvalue="Spring Boot.AccountMicroserviceApplication" />
       <item itemvalue="Spring Boot.DocumentMicroserviceApplication" />
-      <item itemvalue="Spring Boot.HospitalMicroserviceApplication" />
       <item itemvalue="Spring Boot.TimetableMicroserviceApplication" />
     </list>
     <recent_temporary>
@@ -216,7 +214,8 @@
       <workItem from="1727786718759" duration="77000" />
       <workItem from="1727786821251" duration="2104000" />
       <workItem from="1729316768179" duration="281000" />
-      <workItem from="1729317069795" duration="7721000" />
+      <workItem from="1729317069795" duration="12676000" />
+      <workItem from="1729425425980" duration="8106000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -394,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728004770884</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Add some controller urls">
+      <option name="closed" value="true" />
+      <created>1729324865770</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729324865770</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +425,94 @@
     <MESSAGE value="AuthenticationController Done ☑ ☑ ☑" />
     <MESSAGE value="Add AccountController urls" />
     <MESSAGE value="some refactors" />
-    <option name="LAST_COMMIT_MESSAGE" value="some refactors" />
+    <MESSAGE value="Add some controller urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some controller urls" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/controller/HospitalController.java</url>
+          <line>43</line>
+          <properties class="com.example.hospitalmicroservice.controller.HospitalController" method="createHospital">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
+          <line>74</line>
+          <properties class="com.example.hospitalmicroservice.service.HospitalService" method="isAdmin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
+          <line>79</line>
+          <properties class="com.example.hospitalmicroservice.service.HospitalService" method="createHospital">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/RabbitService.java</url>
+          <line>34</line>
+          <properties class="com.example.hospitalmicroservice.service.RabbitService" method="sendRoleValidationRequest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
+          <line>33</line>
+          <properties class="com.example.accountmicroservice.service.RabbitService" method="validateIsAdmin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="hospitalRepository" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

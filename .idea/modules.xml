@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Simbir.health.iml" filepath="$PROJECT_DIR$/Simbir.health.iml" />
       <module fileurl="file://$PROJECT_DIR$/account-microservice/account-microservice.iml" filepath="$PROJECT_DIR$/account-microservice/account-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hospital-microservice/hospital-microservice.iml" filepath="$PROJECT_DIR$/hospital-microservice/hospital-microservice.iml" />
     </modules>
   </component>
 </project>
