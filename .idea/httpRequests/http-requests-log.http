@@ -1,0 +1,21 @@
+POST http://localhost:8081/api/Accounts
+Content-Type: application/json
+Content-Length: 159
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "lastName" : "string",
+  "firstName" : "string",
+  "username": "string",
+  "password": "string",
+  "roles": [
+      "admin","user","doctor","manager"
+  ]
+}
+
+<> 2024-10-09T213725.401.json
+
+###
+
