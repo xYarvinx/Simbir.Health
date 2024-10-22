@@ -7,26 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="some refactors">
-      <change afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/OpenAPIConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/OpenAPIConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/OpenAPIConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/controller/HospitalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/controller/HospitalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/Error.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HospitalRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HospitalRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HospitalResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/HospitalResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/RoomsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/RoomsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/dto/TokenValidationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/model/HospitalEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/model/HospitalEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice" afterDir="false" />
-    </list>
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="some refactors" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
