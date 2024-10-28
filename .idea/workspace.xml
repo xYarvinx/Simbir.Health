@@ -7,22 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="done hospital-microservice">
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/TimeTableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto/AppointmentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto/Error.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/exception/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/exception/ApiExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/exception/ControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/model/AppointmentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/repository/AppoitmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/AppointmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/36b40ed0-662d-4595-9a0b-b7708250108e.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a102537c-5aac-4b6e-b606-f6e0d0863273.xml" beforeDir="false" />
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Start struct">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a102537c-5aac-4b6e-b606-f6e0d0863273/storage_v2/_src_/database/simbir_health.J6wyoQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a102537c-5aac-4b6e-b606-f6e0d0863273/storage_v2/_src_/database/simbir_health.J6wyoQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetable-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/timetable-microservice" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -94,39 +83,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.generated-requests | #36.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AccountMicroserviceApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/Jaroslav/IdeaProjects/Simbir.health/Simbir.health/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.generated-requests | #36.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AccountMicroserviceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Jaroslav/IdeaProjects/Simbir.health/Simbir.health/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.statistic.project.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.accountmicroservice.models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto" />
+      <recent name="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -138,7 +131,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccountMicroserviceApplication">
+  <component name="RunManager" selected="Spring Boot.HospitalMicroserviceApplication">
     <configuration name="generated-requests | #36" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="36" requestIdentifier="#36" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -210,7 +203,8 @@
       <workItem from="1727786718759" duration="77000" />
       <workItem from="1727786821251" duration="2104000" />
       <workItem from="1729561567634" duration="4209000" />
-      <workItem from="1729573642511" duration="2143000" />
+      <workItem from="1729573642511" duration="3217000" />
+      <workItem from="1729587120241" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -396,7 +390,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729567977071</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Start struct">
+      <option name="closed" value="true" />
+      <created>1729576450501</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576450501</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Start struct">
+      <option name="closed" value="true" />
+      <created>1729576468924</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576468924</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +431,8 @@
     <MESSAGE value="Add AccountController urls" />
     <MESSAGE value="some refactors" />
     <MESSAGE value="done hospital-microservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="done hospital-microservice" />
+    <MESSAGE value="Start struct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start struct" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
