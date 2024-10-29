@@ -24,3 +24,41 @@ services:
     container_name: redis
     ports:
       - "6379:6379"
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.2
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.10.2
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    environment:
+      ELASTICSEARCH_HOSTS: "http://elasticsearch:9200"
+
+  timetable-microservice:
+    build:
+      context: ./timetable-microservice
+      dockerfile: Dockerfile
+    container_name: timetable-microservice
+    ports:
+      - "8083:8083"
+    environment:
+      - SPRING_APPLICATION_NAME=timetable-microservice
+      - SERVER_PORT=8083
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_DATA_JDBC_DIALECT=postgresql
+      - SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT=org.hibernate.dialect.PostgreSQLDialect
+      - SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL=true
+      - SERVER_ERROR_INCLUDE_MESSAGE=always
+      - SPRING_DATASOURCE_USERNAME=yarvin
+      - SPRING_DATASOURCE_PASSWORD=12341234
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/simbir_health
+      - SPRING_SECURITY_USER_NAME=root
+      - SPRING_SECURITY_USER_PASSWORD=root
+    depends_on:
+      - postgres

@@ -7,25 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Add Queries &amp; topics for timetable-microservice, upd account-microservice &amp; hospital-microservice">
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/config/JacksonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/config/OpenAPIConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/AppointmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto/AppointmentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto/TimetableResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/exception/TimetableNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/model/AppointmentEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/repository/AppointmentRepository.java" afterDir="false" />
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Start struct">
+      <change afterPath="$PROJECT_DIR$/document-microservice/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/controller/HistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/model/HistoryDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/service/HistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timetable-microservice/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a102537c-5aac-4b6e-b606-f6e0d0863273/storage_v2/_src_/database/simbir_health.J6wyoQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a102537c-5aac-4b6e-b606-f6e0d0863273/storage_v2/_src_/database/simbir_health.J6wyoQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/TimetableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/TimetableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto/TimetableRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto/TimetableRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/repository/TimetableRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/repository/TimetableRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/controller/DocumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/RabbitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/RabbitService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java" afterDir="false" />
     </list>
@@ -64,18 +60,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dockerfile" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Dockerfile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/timetable-microservice" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/document-microservice" />
     <option name="ROOT_SYNC" value="SYNC" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="786a94b7-c867-4ea9-ace3-e36a89dea65d" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -91,7 +86,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2mJSEPZfI6tE0LiLpMzRyu4QZZY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,7 +97,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "HTTP Request.generated-requests | #36.executor": "Run",
-    "HTTP Request.generated-requests | #44.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -110,15 +104,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AccountMicroserviceApplication.executor": "Debug",
-    "Spring Boot.HospitalMicroserviceApplication.executor": "Debug",
-    "Spring Boot.TimetableMicroserviceApplication.executor": "Debug",
+    "Spring Boot.AccountMicroserviceApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "af29380f",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/oteba/IdeaProjects/Simbir.Health/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto",
+    "last_opened_file_path": "/Users/Jaroslav/IdeaProjects/Simbir.health/Simbir.health/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,33 +117,20 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "swagger",
+    "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.hospitalmicroservice.dto" />
       <recent name="com.example.accountmicroservice.models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\oteba\IdeaProjects\Simbir.Health\timetable-microservice\src\main\java\com\example\timetablemicroservice\dto" />
-      <recent name="C:\Users\oteba\IdeaProjects\Simbir.Health\hospital-microservice\src\main\java\com\example\hospitalmicroservice\dto" />
-      <recent name="C:\Users\oteba\IdeaProjects\Simbir.Health\timetable-microservice\src\main\java\com\example\timetablemicroservice\config" />
-      <recent name="C:\Users\oteba\IdeaProjects\Simbir.Health\timetable-microservice\src\main\java\com\example\timetablemicroservice\exception" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.timetablemicroservice.config" />
-      <recent name="com.example.timetablemicroservice.dto" />
-      <recent name="com.example.hospitalmicroservice.exception" />
-      <recent name="com.example.accountmicroservice.dto" />
-      <recent name="com.example.timetablemicroservice.util" />
+      <recent name="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto" />
+      <recent name="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/exception" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,13 +142,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TimetableMicroserviceApplication">
-    <configuration name="generated-requests | #36" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="36" requestIdentifier="#36" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #44" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="44" requestIdentifier="#44" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Docker.docker-compose.yml.timetable-microservice: Compose Deployment">
     <configuration name="AccountMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account-microservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accountmicroservice.AccountMicroserviceApplication" />
@@ -199,18 +171,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.elasticsearch: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="elasticsearch" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.kibana: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="kibana" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.networks: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="networks" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.timetable-microservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="timetable-microservice" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="HTTP Request.generated-requests | #44" />
-      <item itemvalue="HTTP Request.generated-requests | #36" />
-      <item itemvalue="Spring Boot.HospitalMicroserviceApplication" />
+      <item itemvalue="Docker.docker-compose.yml.elasticsearch: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.kibana: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.networks: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml.timetable-microservice: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       <item itemvalue="Spring Boot.AccountMicroserviceApplication" />
       <item itemvalue="Spring Boot.DocumentMicroserviceApplication" />
+      <item itemvalue="Spring Boot.HospitalMicroserviceApplication" />
       <item itemvalue="Spring Boot.TimetableMicroserviceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #44" />
-        <item itemvalue="HTTP Request.generated-requests | #36" />
+        <item itemvalue="Docker.docker-compose.yml.timetable-microservice: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.kibana: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.elasticsearch: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.networks: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -240,9 +282,9 @@
       <workItem from="1727786458731" duration="232000" />
       <workItem from="1727786718759" duration="77000" />
       <workItem from="1727786821251" duration="2104000" />
-      <workItem from="1729316768179" duration="281000" />
-      <workItem from="1729317069795" duration="12676000" />
-      <workItem from="1729425425980" duration="8106000" />
+      <workItem from="1729561567634" duration="4209000" />
+      <workItem from="1729573642511" duration="3217000" />
+      <workItem from="1729587120241" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -420,23 +462,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728004770884</updated>
     </task>
-    <task id="LOCAL-00023" summary="Add some controller urls">
+    <task id="LOCAL-00023" summary="done hospital-microservice">
       <option name="closed" value="true" />
-      <created>1729324865770</created>
+      <created>1729567977071</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1729324865770</updated>
+      <updated>1729567977071</updated>
     </task>
-    <task id="LOCAL-00024" summary="Add Queries &amp; topics for timetable-microservice, upd account-microservice &amp; hospital-microservice">
+    <task id="LOCAL-00024" summary="Start struct">
       <option name="closed" value="true" />
-      <created>1730104999462</created>
+      <created>1729576450501</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1730104999462</updated>
+      <updated>1729576450501</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Start struct">
+      <option name="closed" value="true" />
+      <created>1729576468924</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729576468924</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,299 +510,9 @@
     <MESSAGE value="AuthenticationController Done ☑ ☑ ☑" />
     <MESSAGE value="Add AccountController urls" />
     <MESSAGE value="some refactors" />
-    <MESSAGE value="Add some controller urls" />
-    <MESSAGE value="Add Queries &amp; topics for timetable-microservice, upd account-microservice &amp; hospital-microservice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Queries &amp; topics for timetable-microservice, upd account-microservice &amp; hospital-microservice" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/controller/HospitalController.java</url>
-          <line>82</line>
-          <properties class="com.example.hospitalmicroservice.controller.HospitalController">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>75</line>
-          <properties class="com.example.hospitalmicroservice.service.HospitalService" method="isAllow">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>80</line>
-          <properties class="com.example.hospitalmicroservice.service.HospitalService" method="createHospital">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>33</line>
-          <properties class="com.example.accountmicroservice.service.RabbitService">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>38</line>
-          <properties class="com.example.accountmicroservice.service.RabbitService" method="validateRole">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/RabbitService.java</url>
-          <line>50</line>
-          <properties class="com.example.timetablemicroservice.service.RabbitService" method="isDoctorExists">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>56</line>
-          <properties class="com.example.accountmicroservice.service.RabbitService" method="handleUserExistenceRequest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>136</line>
-          <properties class="com.example.hospitalmicroservice.service.HospitalService" method="handleHospitalExistenceRequest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/config/TokenProvider.java</url>
-          <line>103</line>
-          <properties class="com.example.accountmicroservice.config.TokenProvider" method="getRolesFromToken">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/config/SecurityConfiguration.java</url>
-          <line>24</line>
-          <properties class="com.example.timetablemicroservice.config.SecurityConfiguration" method="hospitalFilterChain">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/TimetableController.java</url>
-          <line>177</line>
-          <properties class="com.example.timetablemicroservice.controller.TimetableController">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java</url>
-          <line>314</line>
-          <properties class="com.example.timetablemicroservice.service.TimetableService" method="bookAppointment">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/RabbitService.java</url>
-          <line>104</line>
-          <properties class="com.example.timetablemicroservice.service.RabbitService" method="getUserIdFromToken">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/config/JwtFilter.java</url>
-          <line>31</line>
-          <properties class="com.example.timetablemicroservice.config.JwtFilter" method="doFilterInternal">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/AppointmentController.java</url>
-          <line>37</line>
-          <properties class="com.example.timetablemicroservice.controller.AppointmentController" method="deleteAppointment">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java</url>
-          <line>335</line>
-          <properties class="com.example.timetablemicroservice.service.TimetableService" method="deleteAppointment">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>135</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>137</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/hospital-microservice/src/main/java/com/example/hospitalmicroservice/service/HospitalService.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/TimetableController.java</url>
-          <line>186</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/TimetableController.java</url>
-          <line>187</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/TimetableController.java</url>
-          <line>193</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/TimetableController.java</url>
-          <line>195</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java</url>
-          <line>315</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java</url>
-          <line>318</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java</url>
-          <line>320</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java</url>
-          <line>324</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java</url>
-          <line>330</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/account-microservice/src/main/java/com/example/accountmicroservice/service/RabbitService.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/AppointmentController.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/controller/AppointmentController.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="hospitalRepository" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <MESSAGE value="done hospital-microservice" />
+    <MESSAGE value="Start struct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start struct" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
