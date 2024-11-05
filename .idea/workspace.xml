@@ -7,23 +7,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Start struct">
-      <change afterPath="$PROJECT_DIR$/document-microservice/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/controller/HistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/model/HistoryDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/service/HistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timetable-microservice/Dockerfile" afterDir="false" />
+    <list default="true" id="6e19d754-f49e-4369-9aa4-5710a03aa6d9" name="Changes" comment="Start struct &amp; dockerfile for timetable-microservice">
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/config/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/config/CustomAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/config/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/config/OpenAPIConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/config/RabbitMQConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/Error.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/HistoryResponseFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/HistoryResponsePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/RoleValidationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/RoleValidationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/TokenValidationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto/TokenValidationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/exception/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/exception/ApiExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/exception/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/service/RabbitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/utils/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a102537c-5aac-4b6e-b606-f6e0d0863273/storage_v2/_src_/database/simbir_health.J6wyoQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a102537c-5aac-4b6e-b606-f6e0d0863273/storage_v2/_src_/database/simbir_health.J6wyoQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2024_1_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_10_2024_1_35__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/account-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/document-microservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/controller/DocumentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/document-microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hospital-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/hospital-microservice" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/RabbitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/RabbitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/service/TimetableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/controller/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/controller/HistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/service/HistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/service/HistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetable-microservice" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timetable-microservice/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/timetable-microservice/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +74,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Dockerfile" />
+        <option value="Interface" />
+        <option value="com.haulmont.jpb.NewClass" />
         <option value="Class" />
       </list>
     </option>
@@ -70,7 +84,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/document-microservice" />
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -109,7 +122,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/Jaroslav/IdeaProjects/Simbir.health/Simbir.health/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto",
+    "last_opened_file_path": "/Users/Jaroslav/IdeaProjects/Simbir.health/Simbir.health/document-microservice/src/main/java/com/example/documentmicroservice/exception",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,8 +142,15 @@
       <recent name="com.example.accountmicroservice.models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/exception" />
+      <recent name="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/dto" />
+      <recent name="$PROJECT_DIR$/document-microservice/src/main/java/com/example/documentmicroservice/config" />
       <recent name="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/dto" />
       <recent name="$PROJECT_DIR$/timetable-microservice/src/main/java/com/example/timetablemicroservice/exception" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.documentmicroservice.service" />
+      <recent name="com.example.documentmicroservice.utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,7 +192,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -285,6 +307,9 @@
       <workItem from="1729561567634" duration="4209000" />
       <workItem from="1729573642511" duration="3217000" />
       <workItem from="1729587120241" duration="767000" />
+      <workItem from="1730189965341" duration="138000" />
+      <workItem from="1730190283665" duration="351000" />
+      <workItem from="1730766348797" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -486,7 +511,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729576468924</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Start struct &amp; dockerfile for timetable-microservice">
+      <option name="closed" value="true" />
+      <created>1730174135992</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1730174135992</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Start struct &amp; dockerfile for timetable-microservice">
+      <option name="closed" value="true" />
+      <created>1730174203216</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1730174203216</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +553,8 @@
     <MESSAGE value="some refactors" />
     <MESSAGE value="done hospital-microservice" />
     <MESSAGE value="Start struct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start struct" />
+    <MESSAGE value="Start struct &amp; dockerfile for timetable-microservice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start struct &amp; dockerfile for timetable-microservice" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
